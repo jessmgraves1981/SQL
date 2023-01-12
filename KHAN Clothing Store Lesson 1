@@ -1,0 +1,22 @@
+CREATE TABLE clothes (id INTEGER PRIMARY KEY, item TEXT, color TEXT, sex TEXT, price INTEGER);
+
+INSERT INTO clothes VALUES (1, "tshirt", "red", "men", "12");
+INSERT INTO clothes VALUES (2, "tank", "pink", "women", "10");
+INSERT INTO clothes VALUES (3, "tshirt", "blue", "children", "8");
+INSERT INTO clothes VALUES (4, "shorts", "black", "women", "15"); 
+INSERT INTO clothes VALUES (5, "beach towel", "multi", "unisex", "8");
+INSERT INTO clothes VALUES (6, "skirt", "purple", "women", "20"); 
+INSERT INTO clothes VALUES (7, "shorts", "tan", "men", "16");
+INSERT INTO clothes VALUES (8, "shorts", "green", "Children", "10"); 
+INSERT INTO clothes VALUES (9, "swimsuit", "yellow", "women", "13"); 
+INSERT INTO clothes VALUES (10, "boardshorts", "black", "men", "15"); 
+INSERT INTO clothes VALUES (11, "beach bag", "orange", "unisex", "10");
+INSERT INTO clothes VALUES (12, "glasses", "black", "men", "35"); 
+INSERT INTO clothes VALUES (13, "hat", "straw", "women", "12"); INSERT INTO clothes VALUES (14, "sandals", "white", "women", "18");
+INSERT INTO clothes VALUES (15, "sandals", "black", "children", "15");
+
+SELECT * FROM clothes 
+WHERE price >=11
+ORDER by price asc;
+
+
